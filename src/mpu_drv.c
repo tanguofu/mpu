@@ -27,7 +27,7 @@
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Magnus <Magnusbackyard@live.com>");
 MODULE_DESCRIPTION("A shim driver allows in-docker nvidia-smi showing correct process list without modify anything");
-MODULE_VERSION("0.1-pre");
+MODULE_VERSION("0.1.1-pre");
 
 // Add module parameter for debug control
 static bool debug_enabled = false;
